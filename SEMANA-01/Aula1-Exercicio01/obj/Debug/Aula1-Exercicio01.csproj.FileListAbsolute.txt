@@ -1,0 +1,8 @@
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\bin\Debug\Aula1-Exercicio01.exe.config
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\bin\Debug\Aula1-Exercicio01.exe
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\bin\Debug\Aula1-Exercicio01.pdb
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\obj\Debug\Aula1-Exercicio01.csproj.AssemblyReference.cache
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\obj\Debug\Aula1-Exercicio01.csproj.SuggestedBindingRedirects.cache
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\obj\Debug\Aula1-Exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\obj\Debug\Aula1-Exercicio01.exe
+C:\Users\thais\PROGRAMANDO\CodingGirls-AULAS\SEMANA-01\Aula1-Exercicio01\obj\Debug\Aula1-Exercicio01.pdb

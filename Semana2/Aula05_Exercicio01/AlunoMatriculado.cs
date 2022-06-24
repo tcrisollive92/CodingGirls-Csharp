@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula05_Exercicio01
 {
-    internal class AlunoMatriculado
+    public class AlunoMatriculado
     {
         public string NomeAluno;
         public string Matricula;

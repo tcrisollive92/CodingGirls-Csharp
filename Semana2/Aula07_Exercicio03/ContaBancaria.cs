@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula07_Exercicio03
 {
-    internal class ContaBancaria
+    public class ContaBancaria
     {
         public int NumeroConta { get;private set; }
         public string NomedoCliente { get; set; }
@@ -20,6 +20,13 @@ namespace Aula07_Exercicio03
         public ContaBancaria(int numero, string nomecliente,double depositoinicial) :this(numero,nomecliente)
         {
             Deposito(depositoinicial);
+        }
+        public string AlterarNome(string nomecliente ) 
+        {
+            nomecliente=Console.ReadLine();
+            NomedoCliente = nomecliente ;
+            return nomecliente;
+            
         }
         public void Deposito(double valor)
         {

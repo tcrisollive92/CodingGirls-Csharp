@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula06_Exercicio01
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[]args)
         {

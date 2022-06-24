@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula06_Exercicio01
 {
-    internal class JogoDaVelha
+    public class JogoDaVelha
     {
         int jogadas = 0;
         private string jogador, tabuleiro;

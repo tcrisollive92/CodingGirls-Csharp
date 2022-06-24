@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula05_Exercicio03
 {
-    internal class Calculadora
+    public  class Calculadora
     {
         private double ValorTotal = 0;
 
@@ -16,6 +16,8 @@ namespace Aula05_Exercicio03
         }
         private void Menu()
         {
+
+            Console.WriteLine($"Valor Total: {ValorTotal}");
             Console.Clear();
 
             Console.WriteLine("Escolha qual operação deseja realizar: ");
@@ -28,13 +30,22 @@ namespace Aula05_Exercicio03
             Console.WriteLine($"Valor Total: {ValorTotal}");
             Console.Write(">");
 
+            double ValorDoUsuario1 = 0.0;
+            double ValorDoUsuario2 = 0.0;
             string EscolhaDoUsuario = Console.ReadLine();
             Console.Write(">");
-            Console.WriteLine("Escolha o primeiro valor: ");
-            double ValorDoUsuario1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Escolha o segundo valor: ");
-            double ValorDoUsuario2 = double.Parse(Console.ReadLine());
-
+            if (EscolhaDoUsuario == "5")
+            {
+                ValorTotal = 0.0;
+                Menu();
+            }
+            else
+            {
+                Console.WriteLine("Escolha o primeiro valor: ");
+                ValorDoUsuario1 = double.Parse(Console.ReadLine());
+                Console.WriteLine("Escolha o segundo valor: ");
+                ValorDoUsuario2 = double.Parse(Console.ReadLine());
+            }
             switch (EscolhaDoUsuario)
             {
                 case "1":
@@ -65,18 +76,17 @@ namespace Aula05_Exercicio03
         }
         private void Subtrair(double Valor1, double Valor2)
         {
-            ValorTotal -= Valor1 - Valor2;
+            ValorTotal = Valor1 - Valor2;
             Menu();
-
         }
         private void Multiplicar(double Valor1, double Valor2)
         {
-            ValorTotal *= Valor1 * Valor2;
+            ValorTotal = Valor1 * Valor2;
             Menu();
         }
         private void Divisao(double Valor1, double Valor2)
         {
-            ValorTotal /= Valor1 / Valor2;
+            ValorTotal = Valor1 / Valor2;
             Menu();
         }
        

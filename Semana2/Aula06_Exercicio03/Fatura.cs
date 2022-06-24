@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula06_Exercicio03
 {
-    internal class Fatura
+    public class Fatura
     {
         private int NumerodoProduto;
         private string DescricaoProduto =String.Empty;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula07_Exercicio04
 {
-    internal class CadastroPet
+    public class CadastroPet
     {
         public string Nome;
         public string Especie;

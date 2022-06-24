@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula07_Exercicio03
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -32,7 +32,7 @@ namespace Aula07_Exercicio03
             else { conta = new ContaBancaria(numero, nome); }
 
             Console.WriteLine($"Dados da conta:\n{conta}");
-            Console.WriteLine("Deseja realizar qual operação:\n1-Saque\n2-Depósito\n3-Sair");
+            Console.WriteLine("Deseja realizar qual operação:\n1-Saque\n2-Depósito\n3-Alterarnomecliente\n4-Sair");
             Console.Write(">>");
             string opcao=Console.ReadLine();
 
@@ -53,7 +53,16 @@ namespace Aula07_Exercicio03
                     Console.WriteLine($"Dados atualizados da conta:\n{conta}");
                     break;
 
-                    default: Console.WriteLine("Obrigada por escolher o banco blue!");
+                case "3":
+                    Console.WriteLine("Digite o novo nome: ");
+                    nome = Console.ReadLine();
+                    conta.AlterarNome(nome);
+
+                    Console.WriteLine($"Dados atualizados da conta:\n{conta}");
+                    break;
+
+                default:
+                    Console.WriteLine("Obrigada por escolher o banco blue!");
                     break;
             }
             

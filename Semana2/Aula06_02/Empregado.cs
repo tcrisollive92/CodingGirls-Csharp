@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula06_02
 {
-    internal class Empregado
+    public class Empregado
     {
         private string Nome;
         private string Cargo;

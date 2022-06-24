@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula06_Exercicio04
 {
-    internal class Sorteio
+    public class Sorteio
     {
         public int NumeroSorte;
 

@@ -9,7 +9,13 @@ namespace Aula07_Exercicio03
     public class ContaBancaria
     {
         public int NumeroConta { get;private set; }
-        public string NomedoCliente { get; set; }
+        private string nomecliente;
+        public string NomedoCliente {
+            
+                get { return nomecliente; }
+                set { nomecliente = value; }
+            
+        }
         public double Saldo { get; private set; }
 
         public ContaBancaria(int numero,string nomecliente)
@@ -21,12 +27,9 @@ namespace Aula07_Exercicio03
         {
             Deposito(depositoinicial);
         }
-        public string AlterarNome(string nomecliente ) 
+        public void AlterarNome(string nomecliente ) 
         {
-            nomecliente=Console.ReadLine();
-            NomedoCliente = nomecliente ;
-            return nomecliente;
-            
+            NomedoCliente = nomecliente ;   
         }
         public void Deposito(double valor)
         {

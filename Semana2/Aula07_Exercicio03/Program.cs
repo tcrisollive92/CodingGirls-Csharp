@@ -55,8 +55,8 @@ namespace Aula07_Exercicio03
 
                 case "3":
                     Console.WriteLine("Digite o novo nome: ");
-                    nome = Console.ReadLine();
-                    conta.AlterarNome(nome);
+                    string nome2 = Console.ReadLine();
+                    conta.AlterarNome(nome2);
 
                     Console.WriteLine($"Dados atualizados da conta:\n{conta}");
                     break;
